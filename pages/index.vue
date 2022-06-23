@@ -9,7 +9,7 @@
                <ul class="hidden md:flex space-x-10 text-gray-600 font-md text-sm uppercase">
                   <li class="hover:text-gray-500" v-for="navItem in navItems" :key="navItem.text"><nuxt-link :to="navItem.link">{{navItem.text}}</nuxt-link></li>
                </ul>
-              <digit iv class="hidden md:flex"><button class="ring-1  shadow-sm rounded-md px-5 py-2 text-sm">My Resume</button></div>
+              <div class="hidden md:flex"><button class="ring-1  shadow-sm rounded-md px-5 py-2 text-sm">My Resume</button></div>
               <div class="md:hidden cursor-pointer space-y-1 z-20" @click="toggleNavbar">
                   <div class="w-6 h-0.5 bg-black"></div>
                   <div class="w-6 h-0.5 bg-black"></div>
